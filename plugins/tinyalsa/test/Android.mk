@@ -13,7 +13,8 @@ LOCAL_SRC_FILES     := agmmixer.c
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
     libarpal_headers \
-    libacdb_headers
+    libacdb_headers \
+    kvh2xml_headers
 
 #if android version is R, refer to qtitinyxx otherwise use upstream ones
 #This assumes we would be using AR code only for Android R and subsequent versions.
@@ -46,7 +47,8 @@ LOCAL_SRC_FILES     := agmplay.c
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
     libarpal_headers \
-    libacdb_headers
+    libacdb_headers \
+    kvh2xml_headers
 
 #if android version is R, refer to qtitinyxx otherwise use upstream ones
 #This assumes we would be using AR code only for Android R and subsequent versions.
@@ -76,7 +78,8 @@ LOCAL_SRC_FILES     := agmcap.c
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
     libarpal_headers \
-    libacdb_headers
+    libacdb_headers \
+    kvh2xml_headers
 
 #if android version is R, refer to qtitinyxx otherwise use upstream ones
 #This assumes we would be using AR code only for Android R and subsequent versions.
@@ -106,7 +109,8 @@ LOCAL_SRC_FILES     := agmhostless.c
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
     libarpal_headers \
-    libacdb_headers
+    libacdb_headers \
+    kvh2xml_headers
 
 #if android version is R, refer to qtitinyxx otherwise use upstream ones
 #This assumes we would be using AR code only for Android R and subsequent versions.
@@ -141,7 +145,8 @@ LOCAL_SRC_FILES     := agmcompressplay.c
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
     libarpal_headers \
-    libacdb_headers
+    libacdb_headers \
+    kvh2xml_headers
 
 # Use flag based selection to use QTI vs open source tinycompress project
 
@@ -179,7 +184,8 @@ LOCAL_SRC_FILES     := agmcompresscap.c
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
     libarpal_headers \
-    libacdb_headers
+    libacdb_headers \
+    kvh2xml_headers
 
 # Use flag based selection to use QTI vs open source tinycompress project
 
@@ -215,7 +221,8 @@ LOCAL_SRC_FILES     := agm_voiceui.c
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
     libarpal_headers \
-    libacdb_headers
+    libacdb_headers \
+    kvh2xml_headers
 
 #if android version is R, refer to qtitinyxx otherwise use upstream ones
 #This assumes we would be using AR code only for Android R and subsequent versions.

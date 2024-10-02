@@ -12,7 +12,8 @@ LOCAL_SRC_FILES     := src/agm_pcm_plugin.c
 
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
-    libarosal_headers
+    libarosal_headers \
+    kvh2xml_headers
 
 LOCAL_SHARED_LIBRARIES := \
     libsndcardparser \
@@ -54,7 +55,8 @@ LOCAL_SRC_FILES     := src/agm_mixer_plugin.c
 
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
-    libarosal_headers
+    libarosal_headers \
+    kvh2xml_headers
 
 LOCAL_SHARED_LIBRARIES := \
     libsndcardparser \
@@ -99,7 +101,8 @@ LOCAL_SRC_FILES     := src/agm_compress_plugin.c
 
 LOCAL_HEADER_LIBRARIES := \
     libagm_headers \
-    libarosal_headers
+    libarosal_headers \
+    kvh2xml_headers
 
 LOCAL_SHARED_LIBRARIES := \
     libsndcardparser \
